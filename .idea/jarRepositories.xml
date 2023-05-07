@@ -2,9 +2,24 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="nexus-release-repository" />
+      <option name="name" value="nexus-release-repository" />
+      <option name="url" value="https://nexus.wolterskluwer.io/nexus/content/repositories/wkrelease/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="wk-snapshot-1" />
+      <option name="name" value="wk-snapshot-1" />
+      <option name="url" value="https://nexus.wolterskluwer.io/nexus/content/repositories/snapshots/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="derjust-snapshots" />
+      <option name="name" value="derjust-snapshots" />
+      <option name="url" value="https://oss.sonatype.org/content/repositories/snapshots/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -15,6 +30,11 @@
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-snapshot-repository" />
+      <option name="name" value="nexus-snapshot-repository" />
+      <option name="url" value="https://nexus.wolterskluwer.io/nexus/content/repositories/snapshots/" />
     </remote-repository>
   </component>
 </project>

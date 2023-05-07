@@ -1,10 +1,14 @@
-import java.io.IOException;
-import java.util.*;
-import java.nio.file.*;
-import java.util.concurrent.TimeUnit;
+package quizgame;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.CollectionType;
+
+import java.io.IOException;
+import java.nio.file.Paths;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class QuizGame {
     private static List<Question> loadQuestions(String filePath) {

@@ -1,3 +1,5 @@
+package quizgame;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Question {
